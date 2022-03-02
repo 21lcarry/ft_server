@@ -1,0 +1,2 @@
+docker build -t ft_server .
+docker run -it --rm -p 127.0.0.1:8081:80 -p 127.0.0.1:40443:443 server
